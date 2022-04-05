@@ -1,0 +1,123 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 150px;
+padding-bottom: 20px;
+}
+
+.icon {
+    align-items: center;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    vertical-align: middle;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.banner {
+    background-image: url(/img/image-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    background-size: cover;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 70px; */
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.profile-left {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profile-left img{
+    width: 60px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+
+.profile-left .name {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.name span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name p {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.profile-buttons .mensaje-btn {
+    background-color: rgba(162, 218, 227);
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    margin-right: 10px;
+}
+
+.profile-buttons .seguir-btn {
+    background-color: rgba(223, 109, 102);
+    color: white;
+    border: none;
+    padding: 7px 18px;
+}
+
+.grid-videos {
+    border-top: 1px solid rgba(128, 128, 128, 0.239);
+    padding-top: 40px;
+}
+
+.grid-videos  p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.card {
+    border: 0px solid black !important;
+    padding: 20px;
+}
+
+.card img {
+    height: 170px;
+}
+
+.card span {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.card p {
+    font-weight: 300;
+    font-size: 16px;
+}
